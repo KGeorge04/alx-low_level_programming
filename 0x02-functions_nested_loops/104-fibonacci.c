@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -  prints the first 98 Fibonacci numbers
- * No hardcode
- * Return: 0(Success)
+ * main - fibonaci<3
+ *
+ * Purpose - no hardcode
+ *
+ * Return: (Success)
  */
 
 int main(void)
@@ -19,7 +21,7 @@ int main(void)
 
 	printf("%lu", bef);
 
-	for (1 = 1; 1 < 91; i++)
+	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", aft);
 		aft += bef;
